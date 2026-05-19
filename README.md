@@ -8,4 +8,4 @@ Antiviral peptides (AVPs) are promising candidates for antiviral drug developmen
 
 The `Dataset` folder contains all sequences from the three datasets used in this study.
 
-Before training the PMAVP model, please run `feature_extraction.py` to extract features using the ProtT5 pretrained protein language model. After feature extraction, run the main program `PT5first_stage_mamba.py`, which includes both the training and testing procedures for the PMAVP model.
+Before training the PMAVP model, please run `feature_extraction.py` to extract features using the ProtT5 pretrained protein language model. After feature extraction, run the main program `PMAVP_firststage.py`, which includes both the training and testing procedures for the PMAVP model.
